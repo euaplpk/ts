@@ -1,6 +1,7 @@
 import time
 import random
 
+from TeleSpam import TeleSpam
 from telethon.sync import TelegramClient
 from telethon.errors.rpcerrorlist import PeerFloodError, SessionPasswordNeededError
 
@@ -94,9 +95,9 @@ class TeleSpam:
 
 
 if __name__ == '__main__':
-    api_id = 000000
-    api_hash = ''
-    phone = ''
+    api_id = 29495348
+    api_hash = '1538d57c65a23e769fabd662e3f708c9'
+    phone = '+380688502950'
 
     new_obj = TeleSpam(api_id, api_hash, phone)
     new_obj.connect()
